@@ -1,0 +1,19 @@
+{
+  "acao_por_omissao": "allow",
+
+  "zonas": {
+    "clientes": "10.44.10.0/24",
+    "servidores": "10.44.30.0/24"
+  },
+
+  "intervalo_estatisticas_s": 5,
+  "intervalo_eventos_enforcement_s": 1,
+
+  "detetores": {
+    "exemplo_icmp_rajada": {
+      "modo": "enforce",
+      "janela_s": 5,
+      "max_pacotes": 20
+    }
+  }
+}
